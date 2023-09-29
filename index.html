@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+       <form action="#">
+        <input type="text" id="result" value="">
+       </form>
+       <div class="keypad">
+        <button onclick="clearScreen()" id="clear">Clear</button>
+        <button onclick="backSpace()">C</button>
+        <button onclick="btnClick(this)" value="/">&divide;</button>
+        <button onclick="btnClick(this)" value="7">7</button>
+        <button onclick="btnClick(this)" value="8">8</button>
+        <button onclick="btnClick(this)" value="9">9</button>
+        <button onclick="btnClick(this)" value="*">&times;</button>
+        <button onclick="btnClick(this)" value="4">4</button>
+        <button onclick="btnClick(this)" value="5">5</button>
+        <button onclick="btnClick(this)" value="6">6</button>
+        <button onclick="btnClick(this)" value="-">&ndash;</button>
+        <button onclick="btnClick(this)" value="1">1</button>
+        <button onclick="btnClick(this)" value="2">2</button>
+        <button onclick="btnClick(this)" value="3">3</button>
+        <button onclick="btnClick(this)" value="+">+</button>
+        <button onclick="btnClick(this)" value="0">0</button>
+        <button onclick="btnClick(this)" value=".">.</button>
+        <button onclick="calculate()" id="calculate">=</button>
+       </div>
+    </div>
+    <script src="./script.js">
+    
+    </script>
+</body>
+</html>
